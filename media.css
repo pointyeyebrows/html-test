@@ -1,0 +1,43 @@
+.header-container{
+    font-size: 4vh;
+}
+.first-video{
+    height: 80vh;
+    width: 80vw;
+}
+.second-video{
+    height: 80vh;
+    width: 80vw;
+}
+.third-video{
+    height: 80vh;
+    width: 80vw;
+}
+#fourth-video{
+    height: 80vh;
+    width: 80vw;
+}
+p{
+    display: none;
+}
+input{
+    display: none;
+}
+h3{display:none}
+ol{
+    display:none
+}
+.fun{
+    display: none;
+}
+h2{
+    font-size: 10vh;
+}
+.main-section{
+    padding-top:0;
+    justify-content: none;
+}
+audio{
+    width:100vw;
+    height: 20vh;
+}
