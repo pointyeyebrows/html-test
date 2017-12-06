@@ -21,27 +21,27 @@
 }
 .first-video{
 margin-top: 1vh;
-height: 30vh;
-width: 40vw;
+height: 60vh;
+width: 60vw;
 
 }
 .second-video{
     margin-top: 1vh;
-    height: 30vh;
-    width: 40vw;
-    margin-bottom: 2vh;
+    height: 60vh;
+    width: 60vw;
+    
 }
 .third-video{
     margin-top: 1vh;
 
-    height: 30vh;
-    width: 40vw;
-    margin-bottom: 2vh;
+    height: 60vh;
+    width: 60vw;
+    
 }
 #fourth-video{
     margin-top: 1vh;
-    height: 30vh;
-    width: 40vw;
+    height: 60vh;
+    width: 60vw;
     margin-bottom: 3vh;
 }
 div > p{
@@ -49,4 +49,41 @@ div > p{
 }
 div + h3{
     font-size: 15vh;
+}
+h3:hover{
+    color: blue;
+}
+ol li{
+    color: green;
+}
+p{
+    float: right;;
+}
+li:nth-child(1){
+    font-size: 5vh;
+}
+input:disabled{
+    background-color: yellow;
+}
+input:focus{
+    height: 20vh;
+    width: 80vw;
+}
+
+
+@media (max-width: 800px){
+    .header-container{
+        font-size: 2vh;
+    }
+    .first-video{
+        height: 50vh;
+        width: 50vw;
+    }
+    p{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    
 }
