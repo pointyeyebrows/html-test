@@ -1,0 +1,52 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    position: fixed;
+    z-index: 5
+}
+.header-container{
+    font-size: 5vh;
+    z-index: 5;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.first-video{
+margin-top: 1vh;
+height: 30vh;
+width: 40vw;
+
+}
+.second-video{
+    margin-top: 1vh;
+    height: 30vh;
+    width: 40vw;
+    margin-bottom: 2vh;
+}
+.third-video{
+    margin-top: 1vh;
+
+    height: 30vh;
+    width: 40vw;
+    margin-bottom: 2vh;
+}
+#fourth-video{
+    margin-top: 1vh;
+    height: 30vh;
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+div > p{
+   font-size: 10vh;
+}
+div + h3{
+    font-size: 15vh;
+}
