@@ -3,7 +3,10 @@
     height: 10vh;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
+    background-image:
+    linear-gradient(
+      blue, grey
+    );
     position: fixed;
     z-index: 5
 }
@@ -46,12 +49,17 @@ width: 60vw;
 }
 div > p{
    font-size: 10vh;
+   height:20vh;
+   width: 20vw;
+   border: solid black 1px;
+   box-shadow: 0 0 10px #000000;
 }
 div + h3{
     font-size: 15vh;
 }
 h3:hover{
     color: blue;
+    text-shadow: 2px 2px orange;
 }
 ol li{
     color: green;
@@ -69,21 +77,12 @@ input:focus{
     height: 20vh;
     width: 80vw;
 }
-
-
-@media (max-width: 800px){
-    .header-container{
-        font-size: 2vh;
-    }
-    .first-video{
-        height: 50vh;
-        width: 50vw;
-    }
-    p{
-        display: none;
-    }
-    input{
-        display: none;
-    }
-    
+.footer{
+    display: flex;
+    justify-content: space-around
 }
+.photo{
+    height: 25vw;;
+    width: 20vw;
+}
+
